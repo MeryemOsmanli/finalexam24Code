@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet-async'
 function Wishlist() {
     const {wishlist,addwishlist,removewishlist}=useContext(WishContext)
   return (
-    <div>
+    <div style={{display:"flex",alignItems:'center',justifyContent:"center",flexDirection:"column"}}>
          <Helmet>
         <title>Wishlist</title>
         <link rel="canonical" href="https://www.tacobell.com/" />

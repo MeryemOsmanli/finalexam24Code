@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet-async'
 function Basket() {
     const {basket,addbasket,removeBasket,decrease}=useContext(MainContext)
   return (
-    <div>
+    <div style={{display:"flex",alignItems:'center',justifyContent:"center",flexDirection:"column"}}>
          <Helmet>
         <title>Basket</title>
         <link rel="canonical" href="https://www.tacobell.com/" />
